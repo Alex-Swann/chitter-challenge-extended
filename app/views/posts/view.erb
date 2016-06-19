@@ -1,14 +1,13 @@
+<div id='post_peep'>
+  <form action='/posts/view' method='post'>
+    <input type='text' name='peep'>
+    <input type='submit' value='Post'>
+  </form>
 
-
-
-<form action='/posts/view' method='post'>
-  <input type='text' name='peep'>
-  <input type='submit' value='Post'>
-</form>
-
-<% @messages.reverse.each do |message| %>
-  <ul>
-    <li><%= message.content %> ---
-    <em>Posted: <%= message.created_at.strftime("%A, %b %d %r") %> by  <strong><%= User.get(message.user_id).user_name %></strong></em></li>
-  </ul>
-<% end %>
+  <% @messages.reverse.each do |message| %>
+    <ul>
+      <li><%= message.content %> ---
+      <em>Posted: <%= message.created_at.strftime("%A, %b %d %r") %> by  <strong><%= User.get(message.user_id).user_name %></strong></em></li>
+    </ul>
+  <% end %>
+</div>
