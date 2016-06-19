@@ -2,65 +2,55 @@
 <html>
   <head>
     <title>Chitter</title>
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@CodePen">
-    <meta name="twitter:title" content="React Animated BB-8">
-    <meta name="twitter:description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
-    <meta name="twitter:image" content="http://s3-us-west-2.amazonaws.com/i.cdpn.io/662025.gMpxNZ.c960940e-19a5-4412-bbad-ff5ef0696370.png">
-    <meta name="twitter:creator" content="@BradColthurst">
-    <meta property="og:image" content="http://codepen.io/bullerb/pen/gMpxNZ/image/large.png" itemprop="thumbnailUrl">
-    <meta property="og:title" content="React Animated BB-8">
-    <meta property="og:url" content="http://codepen.io/bullerb/details/gMpxNZ">
-    <meta property="og:site_name" content="CodePen">
-    <meta property="og:description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
-    <link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=http://codepen.io/bullerb/pen/gMpxNZ&amp;format=json" title="React Animated BB-8">
-    <link href="//fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic" rel="stylesheet">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@CodePen">
+      <meta name="twitter:title" content="React Animated BB-8">
+      <meta name="twitter:description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
+      <meta name="twitter:image" content="http://s3-us-west-2.amazonaws.com/i.cdpn.io/662025.gMpxNZ.c960940e-19a5-4412-bbad-ff5ef0696370.png">
+      <meta name="twitter:creator" content="@BradColthurst">
+      <meta property="og:image" content="http://codepen.io/bullerb/pen/gMpxNZ/image/large.png" itemprop="thumbnailUrl">
+      <meta property="og:title" content="React Animated BB-8">
+      <meta property="og:url" content="http://codepen.io/bullerb/details/gMpxNZ">
+      <meta property="og:site_name" content="CodePen">
+      <meta property="og:description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
+      <link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=http://codepen.io/bullerb/pen/gMpxNZ&amp;format=json" title="React Animated BB-8">
+      <link href="//fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic" rel="stylesheet">
 
-  <!--   <link rel="stylesheet" media="all" href="https://assets.codepen.io/assets/global/global-NoMQ-de13492204f551a432a55f4b90e41596.css"> -->
+      <link rel="stylesheet" media="all" href="https://assets.codepen.io/assets/global/global-NoMQ-de13492204f551a432a55f4b90e41596.css">
 
-    <link rel="stylesheet" media="all" href="https://assets.codepen.io/assets/editor/editor-8af49a67baf71c9180aca2f7a87dbbc2.css">
-    <meta name="description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
-    <link rel="stylesheet" media="screen" href="https://assets.codepen.io/assets/editor/themes/twilight-ef6271c74416570a70e3cf4f6f5ab424.css" id="cm-theme">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="mask-icon" href="/logo-pin.svg" color="#111">
-    <meta name="csrf-param" content="authenticity_token">
-    <meta name="csrf-token" content="vNjcamK7CiTXW3EIl5E5IAHhMUe2HekeLO3PHYv4ctttZMkPg/jh62kQzy6Z/bJwnV4jysapbAXRQimgZWpn9g==">
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <script src="//assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js"></script>
+      <link rel="stylesheet" media="all" href="https://assets.codepen.io/assets/editor/editor-8af49a67baf71c9180aca2f7a87dbbc2.css">
+      <meta name="description" content="A React based interactive animation of BB-8 from Star Wars. Originally inspired by Mike Dixon: http://codepen.io/mdixondesigns/pen/PPEJwz  Bit of a cha...">
+      <link rel="stylesheet" media="screen" href="https://assets.codepen.io/assets/editor/themes/twilight-ef6271c74416570a70e3cf4f6f5ab424.css" id="cm-theme">
+      <link rel="shortcut icon" href="/favicon.ico">
+      <link rel="mask-icon" href="/logo-pin.svg" color="#111">
+      <meta name="csrf-param" content="authenticity_token">
+      <meta name="csrf-token" content="vNjcamK7CiTXW3EIl5E5IAHhMUe2HekeLO3PHYv4ctttZMkPg/jh62kQzy6Z/bJwnV4jysapbAXRQimgZWpn9g==">
+      <script async="" src="//www.google-analytics.com/analytics.js"></script>
+      <script src="//assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js"></script>
 
-    <script src="//assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js"></script>
+      <script src="//assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js"></script>
 
-    <script src="//assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js"></script>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
-    <link rel="canonical" href="https://codepen.io/magnificode/pen/rLedYG">
-    <link rel="stylesheet prefetch" href="//codepen.io/assets/reset/normalize.css">
+      <script src="//assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js"></script>
+      <meta charset="UTF-8">
+      <meta name="robots" content="noindex">
+      <link rel="canonical" href="https://codepen.io/magnificode/pen/rLedYG">
+      <link rel="stylesheet prefetch" href="//codepen.io/assets/reset/normalize.css">
 
 
-    <link rel='stylesheet' type='text/css' href='css/bees.css' media='screen' />
-    <link rel='stylesheet' type='text/css' href='css/flower.css' media='screen' />
-    <%= partial :flower %>
-    <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/flower.js"></script>
+      <link rel='stylesheet' type='text/css' href='css/bees.css' media='screen' />
+      <link rel='stylesheet' type='text/css' href='css/flower.css' media='screen' />
+      <%= partial :flower %>
+      <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1"></script>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="js/flower.js"></script>
 
   </head>
 
   <body>
 
-
     <% if flash[:notice] %>
       <%= flash[:notice] %>
-    <% end %>
-
-
-    <% if current_user && !flash[:errors] %>
-      <form action='/sessions' method='post'>
-        <input type='hidden' name='_method' value='delete'>
-        <input type='submit' value='Sign Out'>
-      </form>
-      <h2>Welcome <%= current_user.user_name%></h2>
     <% end %>
 
     <% if flash[:errors] %>

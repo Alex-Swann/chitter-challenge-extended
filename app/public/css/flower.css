@@ -177,3 +177,9 @@ body {
   left: calc(50% - (100vw / 20) / 2);
   border-radius: calc(2px * 20);
 }
+
+.sign_out {
+   position: relative;
+   top: -16px;
+   right: -706px;
+}

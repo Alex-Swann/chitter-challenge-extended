@@ -1,4 +1,21 @@
+<link rel='stylesheet' type='text/css' href='../css/bees.css' media='screen' />
+<link rel='stylesheet' type='text/css' href='../css/flower.css' media='screen' />
+<%= partial :flower %>
+<script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="../js/flower.js"></script>
+
 <div id='post_peep'>
+
+  <% if current_user && !flash[:errors] %>
+    <form  id='sign_out' action='/sessions' method='post'>
+      <input type='hidden' name='_method' value='delete'>
+      <input type='submit' value='Sign Out'>
+      </form>
+    <h2>Welcome <%= current_user.user_name%></h2>
+  <% end %>
+
   <form action='/posts/view' method='post'>
     <input type='text' name='peep'>
     <input type='submit' value='Post'>
