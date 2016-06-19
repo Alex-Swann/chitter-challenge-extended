@@ -1,0 +1,161 @@
+body {
+  height: 90vh;
+  background-color: #00d2ff; /*fallback*/
+  background: linear-gradient( deepskyblue, lightblue);
+  margin: 130px 350px;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+}
+
+.bee1 {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.bee2 {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin: 250px 300px;
+}
+
+.beebody {
+  background-color: #f5cc61;
+  height: 100px;
+  width: 70px;
+  border-radius: 100px / 100px;
+}
+
+.eyeleft {
+  background-color: #000;
+  height: 7px;
+  width: 7px;
+  border-radius: 7px;
+  top: 20px;
+  left: 20px;
+}
+
+.eyeright {
+  background-color: #000;
+  height: 7px;
+  width: 7px;
+  border-radius: 7px;
+  top: 20px;
+  left: 40px;
+}
+
+.stripe1 {
+  background-color: #232323;
+  height: 10px;
+  width: 70px;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+
+.stripe2 {
+  background-color: #232323;
+  height: 10px;
+  width: 70px;
+  border-radius: 3px;
+  margin-top: 60px;
+}
+
+.antennaleft {
+  width: 20px;
+  height: 50px;
+  border-radius: 50%;
+  border-right: 2px solid #232323;
+  top: -27px;
+  z-index: -1;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.antennatopleft {
+  background-color: #232323;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  top: -29px;
+  left: -4px;
+}
+
+.antennaright {
+  width: 20px;
+  height: 50px;
+  border-radius: 50%;
+  border-left: 2px solid #232323;
+  top: -30px;
+  left: 50px;
+  z-index: -1;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.antennatopright {
+  background-color: #232323;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  top: -35px;
+  left: 66px;
+}
+
+.winglefttop {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 70px;
+  width: 45px;
+  border-radius: 50%;
+  -webkit-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  left: -40px;
+  z-index: -1;
+}
+
+.wingleftbottom {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 55px;
+  width: 35px;
+  border-radius: 50%;
+  -webkit-transform: rotate(-140deg);
+  transform: rotate(-140deg);
+  left: -30px;
+  top: 45px;
+  z-index: -1;
+}
+
+.wingrighttop {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 70px;
+  width: 45px;
+  border-radius: 50%;
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  left: 65px;
+  z-index: -1;
+}
+
+.wingrightbottom {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 55px;
+  width: 35px;
+  border-radius: 50%;
+  -webkit-transform: rotate(140deg);
+  transform: rotate(140deg);
+  left: 65px;
+  top: 45px;
+  z-index: -1;
+}
+
+.stinger {
+  height: 0px;
+  width: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid #232323;
+  top: 90px;
+  left: 20px;
+  z-index: -1;
+}
