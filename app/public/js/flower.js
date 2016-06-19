@@ -17,7 +17,7 @@ for (var i = 0; i < boxes.length; i++) {
         duration: 7500,
         easing: 'cubic-bezier(0.77, 0, 0.175, 1)',
         delay: i * 100,
-        iterations: 50,
+        iterations: Infinity,
         direction: 'alternate',
         fill: 'both'
     });
