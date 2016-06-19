@@ -22,7 +22,7 @@
     <input class='buttons' type='submit' value='Post'>
   </form>
 
-  <% @messages.reverse.each do |message| %>
+  <% @messages.reverse[0..9].each do |message| %>
     <ul id='posts'>
       <li><%= message.content %> ---
       <em>Posted: <%= message.created_at.strftime("%A, %b %d %r") %> by  <strong><%= User.get(message.user_id).user_name %></strong></em></li>
